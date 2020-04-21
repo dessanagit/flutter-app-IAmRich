@@ -16,8 +16,8 @@ void main() => runApp(
           body: Center(
             child: Image(
 //            Image properties below
-              image: NetworkImage(
-                  'https://www.w3schools.com/w3css/img_lights.jpg'),
+//            To use AssetImages(): It's necessary to create and asset at PUBSPEC.YAML
+              image: AssetImage('images/diamond.png'),
             ),
           ),
         ),
